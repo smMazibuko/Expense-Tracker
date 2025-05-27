@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Costly</title>
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="charts.min.css">
+</head>
+<body>
+<div class="main">
+
+    <h1>Costly</h1>
+
+    <div >
+    <p>Balance: </p>
+    <p style="display: inline;" id="currency">$</p>
+    <p style="display: inline;" id="balanceShown">0.00</p>
+    <br>
+    <br>
+    </div>
+
+    <!-- buttons -->
+    <div>
+
+        <a href="income.html" class="button incomeBtn" onclick="getBalance()">Income</a>
+        <button class="button" onclick="logIncome()">+</button>
+        <br>
+        <br>
+        <a href="expense.html" class="button expenseBtn" onclick="getBalance()">Expense</a>
+        <button class="button" onclick="logExpense()">-</button>
+
+    </div>
+
+    
+    <div>
+        <table class="table">
+
+            <tr>
+                
+            </tr>
+
+        </table>
+    </div>
+
+</div>
+</body>
+<script src="index.js"></script>
+<script src="transaction.js"></script>
+</html>
